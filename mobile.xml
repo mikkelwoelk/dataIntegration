@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<retailers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<shop>
   <productType>
-    <mobile>
+    <mobile >
       <name>IPhone 13</name>
       <brand>Apple</brand>
       <model>13</model>
       <price>6799,-</price>
-      <OS>IOS 15</OS>
+      <OS>IOS 15</OS> 
     </mobile>
     <mobile>
       <name>Samsung Galaxy S20 FE</name>
@@ -52,4 +52,4 @@
       <OS>Android 11</OS>
     </mobile>
   </productType>
-</retailers>
+</shop>

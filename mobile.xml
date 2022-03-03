@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<retailers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <productType>
+    <mobile>
+      <name>IPhone 13</name>
+      <brand>Apple</brand>
+      <model>13</model>
+      <price>6799,-</price>
+      <OS>IOS 15</OS>
+    </mobile>
+    <mobile>
+      <name>Samsung Galaxy S20 FE</name>
+      <brand>Samsung</brand>
+      <model>Galaxy S20</model>
+      <price>2666,-</price>
+      <OS>Android</OS>
+    </mobile>
+    <mobile>
+      <name>Oneplus 9 Pro</name>
+      <brand>Oneplus</brand>
+      <model>9 Pro</model>
+      <price>5999,-</price>
+      <OS>OxygenOS 11</OS>
+    </mobile>
+    <mobile>
+      <name>Sony Xperia 1 III</name>
+      <brand>Sony</brand>
+      <model>Xperia III</model>
+      <price>9999,-</price>
+      <OS>Android 11</OS>
+    </mobile>
+    <mobile>
+      <name>Xiaomi Redmi Note 9 Pro</name>
+      <brand>Xiaomi</brand>
+      <model>Redmi Note 9 Pro</model>
+      <price>1888,-</price>
+      <OS>Android 10</OS>
+    </mobile>
+    <mobile>
+      <name>Motorola Edge 20 Pro</name>
+      <brand>Motorola</brand>
+      <model>Edge 20 Pro</model>
+      <price>3999,-</price>
+      <OS>Android 11</OS>
+    </mobile>
+    <mobile>
+      <name>Samsung Galaxy Z fold 3</name>
+      <brand>Samsung</brand>
+      <model>Galaxy Z fold 3</model>
+      <price>14199,-</price>
+      <OS>Android 11</OS>
+    </mobile>
+  </productType>
+</retailers>

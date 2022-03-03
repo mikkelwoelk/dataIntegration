@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dealership>
+  <stores>
+    <Renault>
+      <staff>
+        <employee>
+          <department>Workshop</department>
+          <id>00001</id>
+          <name>John Doe</name>
+          <position>Mechanic</position>
+          <contactInfo>
+            <email>renaultjohn@workshop.com</email>
+            <phoneNumber>12345678</phoneNumber>
+          </contactInfo>
+        </employee>
+      </staff>
+      <carTypes>
+        <sedans>
+          <car>
+            <model>Zoe E-Tech Electric Go</model>
+            <type>Electric</type>
+            <year>2021</year>
+            <price>236.990 DKK</price>
+            <equipments>
+              <equipmentHeater/>
+            </equipments>
+          </car>
+        </sedans>
+        <SUVs></SUVs>
+        <convertibles></convertibles>
+        <vans></vans>
+        <sport></sport>
+      </carTypes>
+    </Renault>
+  </stores>
+</dealership>

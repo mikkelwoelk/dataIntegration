@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+h2,
+p,
+h3,
+.shop-website {
+  color: white;
+}
+
+main {
+  background-color: #84cada;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.shop-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid white;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #5495a4;
+}
+
+.shop-name {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid white;
+}
+
+.shop-control-header {
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.shop-control-stats-container {
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.shop-control-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.shop-control-date {
+  border-right: 1px solid white;
+  padding-right: 0.5rem;
+}
+
+.shop-control-dateTime {
+  padding-left: 0.5rem;
+}
+
+.shop-website {
+  background-color: #84cada;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  align-self: flex-start;
+}
+
+.shop-website:hover {
+  background-color: white;
+  color: #84cada;
+}
